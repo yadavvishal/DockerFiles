@@ -1,0 +1,11 @@
+services:
+  web: 
+    image: "nginx"
+
+  rcache:
+    image: "redis:6.0-alpine3.18"
+
+  
+  # docker compose -f docker-compose1.yaml up -d 
+
+  # the above command is used to create the container for this file
